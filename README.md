@@ -1,4 +1,4 @@
-# ⛏️ Reddit Opportunity Miner 1.0
+# ⛏️ Reddit Opportunity Miner
 
 ## 🚀 Overview
 
@@ -8,7 +8,6 @@ It uses a hybrid data fetching strategy, leveraging the official Reddit API (via
 
 All findings are stored in a local SQLite database, allowing for persistent storage and sophisticated, time-based analysis of opportunities across multiple runs.
 
-## ✨ Features
 ## ✨ Features
 
 - 🌐 **Hybrid Data Fetching:** Uses PRAW for recent posts and Pushshift for historical archives.
@@ -25,7 +24,7 @@ All findings are stored in a local SQLite database, allowing for persistent stor
 ## ⚙️ Setup & Installation
 
 1.  **Prerequisites:**
-    -   Python 3.8+
+    - Python 3.8+
 
 2.  **Install Dependencies:**
     Install all the required Python packages using the `requirements.txt` file.
@@ -34,8 +33,8 @@ All findings are stored in a local SQLite database, allowing for persistent stor
     ```
 
 3.  **Configure API Keys:**
-    -   Rename the `.env.example` file to `.env`.
-    -   Open the `.env` file and add your API credentials for Groq and Reddit.
+    - Rename the `.env.example` file to `.env`.
+    - Open the `.env` file and add your API credentials for Groq and Reddit.
 
 4.  **Initialize the Database:**
     Before running for the first time, you must initialize the database. This command creates the `reddit_miner.db` file and all necessary tables.
@@ -46,7 +45,6 @@ All findings are stored in a local SQLite database, allowing for persistent stor
 
 ---
 
-## ▶️ How to Use
 ## ▶️ How to Use
 
 The tool is operated via the command line using three main commands: `run`, `report`, and `db`.
