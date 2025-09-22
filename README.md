@@ -1,4 +1,4 @@
-# ⛏️ Reddit Opportunity Miner
+# ⛏️ Reddit Opportunity Miner 1.0
 
 ## 📄 Overview
 
