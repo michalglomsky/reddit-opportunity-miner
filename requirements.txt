@@ -1,0 +1,8 @@
+python-dotenv
+praw
+requests
+langchain
+langchain-groq
+langgraph
+pandas
+tqdm
